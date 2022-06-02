@@ -1,0 +1,48 @@
+/*!
+ * Style v1.1
+ */
+
+ /* Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital@0;1&family=Open+Sans:wght@300;400&display=swap');
+
+ /* Basic */
+ :root {
+  --white: #ffffff;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-red {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.basic-content {
+  margin-top: 3.3rem;
+}
+
+/* Test style */
+.row>.col, .row>[class^="col-"] {
+  background-color: rgba(86,61,124,0.15);
+  border: 1px solid rgba(86,61,124,0.2);
+}
+
+/* Index - welcome banner */
+.welcome-banner {
+  padding: 9rem 0rem;
+  margin-bottom: 2rem;
+}
+.welcome-banner h1 {
+  font-family: 'Charis SIL', serif;
+}
